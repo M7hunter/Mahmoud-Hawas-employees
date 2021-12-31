@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    android:layout_height="wrap_content">
+
+    <!-- employee 1 ID -->
+    <TextView
+        android:id="@+id/tv_emp_1_id"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        tools:text="emp 1 id" />
+
+    <!-- employee 2 ID -->
+    <TextView
+        android:id="@+id/tv_emp_2_id"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        tools:text="emp 2 id" />
+
+    <!--  project ID -->
+    <TextView
+        android:id="@+id/tv_project_id"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        tools:text="project id" />
+
+    <!--  days worked -->
+    <TextView
+        android:id="@+id/tv_days_worked"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        tools:text="days worked" />
+
+</LinearLayout>
